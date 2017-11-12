@@ -11,7 +11,7 @@ void test(int* nums, int numsSize, int target, int* indices) {
 	int* retIndices = twoSum(nums, numsSize, target);	
 	assert(retIndices != NULL);
 
-	// printf("[retIndices] 0: %d, 1: %d\n", retIndices[0], retIndices[1]);
+	//printf("[retIndices] 0: %d, 1: %d\n", retIndices[0], retIndices[1]);
 
 	assert(retIndices[0] == indices[0]);
 	assert(retIndices[1] == indices[1]);
