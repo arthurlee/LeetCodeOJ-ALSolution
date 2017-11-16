@@ -13,7 +13,7 @@ void test(int* nums, int numsSize, int target, int* indices) {
 	assert(retIndices != NULL);
 	assert(returnSize == 2);
 
-	//printf("[retIndices] 0: %d, 1: %d\n", retIndices[0], retIndices[1]);
+	printf("[retIndices] [%d, %d], need [%d, %d]\n", retIndices[0], retIndices[1], indices[0], indices[1]);
 
 	assert(retIndices[0] == indices[0]);
 	assert(retIndices[1] == indices[1]);
