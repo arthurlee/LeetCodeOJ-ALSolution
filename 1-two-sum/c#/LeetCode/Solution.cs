@@ -1,5 +1,19 @@
 // command line:
+//		dotnet new console -o LeetCode
+//		cd LeetCode
 //		dotnet run
+//
+//	Reference:
+//
+//		Get started with .NET in 10 minutes
+//		https://www.microsoft.com/net/learn/get-started/macos
+//
+//		Mac 上 .NET Core 的先决条件
+//		https://docs.microsoft.com/zh-cn/dotnet/core/macos-prerequisites
+//
+//		Getting started with .NET Core on macOS
+//		https://docs.microsoft.com/en-us/dotnet/core/tutorials/using-on-macos
+//
 
 using System;
 using System.Collections.Generic;
