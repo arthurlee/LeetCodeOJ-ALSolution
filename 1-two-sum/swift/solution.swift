@@ -4,8 +4,7 @@ class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()
         for (index, num) in nums.enumerated() {
-            let diff = target - num
-            if let preIndex = dict[diff] {
+            if let preIndex = dict[target - num] {
                 return [preIndex, index]
             }
             dict[num] = index
